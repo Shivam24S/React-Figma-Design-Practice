@@ -1,0 +1,52 @@
+.background img {
+  height: 90%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+  background-color: rgba(15, 185, 198, 0.1);
+  margin-top: -30px;
+}
+.textContent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.heading {
+  width: 779px;
+  height: 110px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.paraText p {
+  color: #878787;
+  margin-top: 30px;
+  font-size: 14px;
+  font-style: normal;
+}
+.txtBtn button {
+  width: 188px;
+  height: 48px;
+  background-color: #0cbbc7;
+  color: #ffff;
+  margin-top: 30px;
+  border: none;
+  font-weight: bold;
+}
+
+.grpPhoto {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  flex-wrap: wrap;
+}
+.grpPhoto img {
+  width: 964px;
+  height: 351px;
+}
